@@ -36,7 +36,7 @@ const Counter = ({ title, subtitle, value, onChange }: CounterProps) => {
             w-10
             h-10
             rounded-full
-            border-[1px]
+            border
             border-neutral-400
             flex
             items-center
@@ -64,7 +64,7 @@ const Counter = ({ title, subtitle, value, onChange }: CounterProps) => {
             w-10
             h-10
             rounded-full
-            border-[1px]
+            border
             border-neutral-400
             flex
             items-center

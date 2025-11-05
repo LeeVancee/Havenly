@@ -29,7 +29,7 @@ const ListingReservation = ({
       className="
       bg-white 
         rounded-xl 
-        border-[1px]
+        border
       border-neutral-200 
         overflow-hidden
       "

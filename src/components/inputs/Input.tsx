@@ -43,7 +43,7 @@ const Input = ({ id, label, type = 'text', disabled, formatPrice, register, requ
           bg-white 
           border-2
           rounded-md
-          outline-none
+          outline-hidden
           transition
           disabled:opacity-70
           disabled:cursor-not-allowed
@@ -61,7 +61,7 @@ const Input = ({ id, label, type = 'text', disabled, formatPrice, register, requ
           -translate-y-3 
           top-5 
           z-10 
-          origin-[0] 
+          origin-left 
           ${formatPrice ? 'left-9' : 'left-4'}
           peer-placeholder-shown:scale-100 
           peer-placeholder-shown:translate-y-0 

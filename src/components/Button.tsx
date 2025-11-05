@@ -30,7 +30,7 @@ const Button = ({ label, onClick, disabled, outline, small, icon: Icon }: Button
         ${small ? 'text-sm' : 'text-md'}
         ${small ? 'py-1' : 'py-3'}
         ${small ? 'font-light' : 'font-semibold'}
-        ${small ? 'border-[1px]' : 'border-2'}
+        ${small ? 'border' : 'border-2'}
       `}
     >
       {Icon && (

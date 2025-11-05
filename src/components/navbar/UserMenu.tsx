@@ -76,7 +76,7 @@ const UserMenu = ({ currentUser }: UserMenuProps) => {
             flex-row
             md:py-1
             md:px-2
-            border-[1px]
+            border
             border-neutral-200
             gap-3
             px-4

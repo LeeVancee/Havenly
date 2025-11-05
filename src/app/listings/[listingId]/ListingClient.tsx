@@ -97,7 +97,7 @@ const ListingClient = ({ listing, reservations = [], currentUser }: ListingClien
     <Container>
       <div
         className="
-          max-w-screen-lg 
+          max-w-(--breakpoint-lg) 
           mx-auto
         "
       >
